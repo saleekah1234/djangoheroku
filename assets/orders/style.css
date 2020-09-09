@@ -1,0 +1,133 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    Z-index: 0;
+}
+
+.navbar-nav mr-auto li {
+    padding: 0 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    padding-left: 30px;
+    height: 120px;
+}
+
+.navbar-nav mr-auto a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+#navbar {
+    background: black;
+}
+
+#navbarNavAltMarkup {
+    text-align: left;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+a:hover {
+    color: #007bff!important;
+}
+
+#nav-bar {
+    background: black;
+}
+
+section {
+    background-color: white;
+}
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: initial!important;
+    bottom: initial!important;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+.about-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+<!-----services>#services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+.picture {
+    size: 50px;
+}
+
+img {
+    size: 50px;
+}
+
+.pic img {
+    height: 300px;
+}
+
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/services.png);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1::after {
+    content: '';
+    background: red;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    text-align: center;
+}

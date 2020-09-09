@@ -1,0 +1,364 @@
+<html>
+  {% load static %}
+  {% load crispy_forms_tags %}
+  <head>
+    <title>Hygieo | Sanitizers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{% static 'images/favicon/apple-touch-icon.png' %}"
+    />
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{% static 'images/favicon/favicon-32x32.png' %}"
+    />
+  
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{% static 'images/favicon/favicon-16x16.png' %}"
+    />
+    <link rel="manifest" href="{% static 'images/favicon/site.webmanifest' %}" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}" />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://s.pageclip.co/v1/pageclip.css"
+      media="screen"
+    /> -->
+  </head>
+  <body>
+    <!--nsv--->
+    <header>
+      <nav id="mynav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#"
+          ><img src="{% static 'images/logo1.jpg' %}"/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#main">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">PRODUCTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#order">ORDER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <section id="main" class="main">
+      <div class="transition"></div>
+      <div class="content">
+        <h1>Hygieo Protection</h1>
+        <p>Advanced Anti-germ Sanitizer</p>
+        <button class="cta">Order Now</button>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex order-md-2 align-items-center">
+            <img
+              src="{% static 'images/about_illustration.svg'%}"
+              alt="about-teams-illustration"
+            />
+          </div>
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center flex-column"
+            style="text-align: center; margin: 3rem auto 0"
+          >
+            <h2>About Us</h2>
+            <p class="about-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              inventore dolores aliquam quidem officia voluptate minus omnis
+              fuga nobis minima exercitationem in earum nihil dolor
+              reprehenderit molestiae est, sit voluptatum!
+            </p>
+
+            <a href="#team" class="btn-about"> Know More </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product -->
+    <section id="products" class="products">
+      <div class="container">
+        <div class="row">
+          <h1 class="title">Our Products</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="text-center p-5">
+                <i class="fas fa-pump-soap card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Product</h5>
+                <p class="product-desc">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#order" class="btn-product">order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="text-center p-5">
+                <i class="fas fa-pump-soap card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Product</h5>
+                <p class="product-desc">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#order" class="btn-product">order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="text-center p-5">
+                <i class="fas fa-pump-soap card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Product</h5>
+                <p class="product-desc">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#order" class="btn-product">order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="text-center p-5">
+                <i class="fas fa-pump-soap card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="product-name">Product</h5>
+                <p class="product-desc">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#order" class="btn-product">order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----orders-->
+    <section id="order" class="order">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 order-md-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="{% static 'images/order_illustration.svg' %}"
+              alt="order-illustration"
+              class="item-image"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2 class="title">Order Now</h2>
+            
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <button type="submit">Order</button>
+</form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----Team-->
+
+    <section class="team" id="team">
+      <div class="container text-center">
+        <h1 class="title">Our Team</h1>
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="d-flex m-3 align-items-centes justify-content-center">
+                <img
+                  src="https://picsum.photos/200.jpg"
+                  alt="loading..."
+                  class="team-profile"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="m-1">John Snow</h5>
+                <p>Chief Advisor</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, voluptates officia error
+                </p>
+                <button href="tel:9656551078/" class="m-2 cta">Call</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="d-flex m-3 align-items-centes justify-content-center">
+                <img
+                  src="https://picsum.photos/200.jpg"
+                  alt="loading..."
+                  class="team-profile"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="m-1">John Snow</h5>
+                <p>Chief Advisor</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, voluptates officia error
+                </p>
+                <button href="tel:9656551078/" class="m-2 cta">Call</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="d-flex m-3 align-items-centes justify-content-center">
+                <img
+                  src="https://picsum.photos/200.jpg"
+                  alt="loading..."
+                  class="team-profile"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="m-1">John Snow</h5>
+                <p>Chief Advisor</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, voluptates officia error
+                </p>
+                <button href="tel:9656551078/" class="m-2 cta">Call</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="card">
+              <div class="d-flex m-3 align-items-centes justify-content-center">
+                <img
+                  src="https://picsum.photos/200.jpg"
+                  alt="loading..."
+                  class="team-profile"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="m-1">John Snow</h5>
+                <p>Chief Advisor</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, voluptates officia error
+                </p>
+                <button href="tel:9656551078/" class="m-2 cta">Call</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---contact us-->
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Address</h3>
+            <br />
+
+            <p>
+              TRANSFA CHEMTECH<br />
+              Near Polytechnic Kodumbu, <br />Palakkad Kerala Pin - 6785513
+            </p>
+
+            <p>
+              <a
+                href="https://goo.gl/maps/UL5GNMi9VQu"
+                style="color: white; padding-top: 2rem"
+                >Get Directions on Google Maps</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+
+            <h4>Sales</h4>
+            <p>
+              Nasweeb Azeez :
+              <a class="text-white" href="tel:791234567">791234567</a>
+            </p>
+            <h4>Marketing</h4>
+            <p>
+              Noufal Azeez:
+              <a class="text-white" href="tel:9033344582">23543543534</a>
+            </p>
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="text-center" style="line-height: 2rem">
+              Made with
+              <i class="icon fa fa-heart"></i> by
+              <b>./tech_hygio</b>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-end">
+          <div class="icons">
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+
+            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+
+            <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'js/mailapi.js'%}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  </body>
+</html>
