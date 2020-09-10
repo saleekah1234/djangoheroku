@@ -34,7 +34,7 @@ SECRET_KEY = '6z=o3^#%ckyzwcje3zdcbwxl479nky+!+dtb60x9mg*jrtjb!^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hygio.herokuapp.com' ]
 
 
 
