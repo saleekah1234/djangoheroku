@@ -1,1 +1,1 @@
-web unicorn web.wsgi
+web gunicorn web.wsgi
