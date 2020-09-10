@@ -12,7 +12,6 @@ gunicorn = "*"
 django-smtp-ssl = "*"
 psycopg2-binary = "*"
 python-decouple = "*"
-whitenoise = "5.2.0"
 
 [requires]
 python_version = "3.8"
