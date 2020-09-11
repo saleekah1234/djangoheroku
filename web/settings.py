@@ -142,6 +142,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
 EMAIL_HOST = 'smtp@gmail.com'
-EMAIL_HOST_USER = 'ntlmarketing@gmail.com'
+EMAIL_HOST_USER = 'nastradelinksmkd@gmail.com'
 EMAIL_HOST_PASSWORD = 'ntlmkd#2020'
 EMAIL_PORT = '465'

@@ -16,8 +16,8 @@ def viewhygio(request):
         msg = EmailMessage(
         'New Order',
         message,
-        'ntlmarketing@gmail.com',
-        ['ntlmarketing@gmail.com'])
+        'nastradelinksmkd@gmail.com',
+        ['nastradelinksmkd@gmail.com'])
         msg.content_subtype = "html"
         msg.send()
     return render(request,'orders/index.html',{'form':form})
