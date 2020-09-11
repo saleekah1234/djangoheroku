@@ -16,7 +16,7 @@ def viewhygio(request):
         msg = EmailMessage(
         'New Order',
         message,
-        'ntlmarketing@gmail.com,
+        'ntlmarketing@gmail.com',
         ['ntlmarketing@gmail.com'])
         msg.content_subtype = "html"
         msg.send()
