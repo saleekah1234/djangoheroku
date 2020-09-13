@@ -1,5 +1,5 @@
 SECRET_KEY=6z=o3^#%ckyzwcje3zdcbwxl479nky+!+dtb60x9mg*jrtjb!^
-DEBUG=True
+DEBUG=False
 EMAIL_HOST=smtp.gmail.com
 EMAIL_HOST_USER=nastradelinksmkd@gmail.com
 EMAIL_HOST_PASSWORD=ntlmkd#2020

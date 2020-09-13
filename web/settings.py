@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '6z=o3^#%ckyzwcje3zdcbwxl479nky+!+dtb60x9mg*jrtjb!^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [ 'hygio.herokuapp.com']
 
